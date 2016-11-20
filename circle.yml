@@ -7,12 +7,8 @@ machine:
     Asia/Shanghai 
   node:
     version: 6.0.0
-
 dependencies:
   override:
-test:
-  override:
-    - phpunit test/unit-tests # use PHPunit for testing
 deployment:
   production:
     branch: master

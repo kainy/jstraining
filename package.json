@@ -1,0 +1,18 @@
+{
+  "name": "jstraining",
+  "version": "1.0.0",
+  "description": "全栈工程师培训材料，帮助学习者掌握全栈开发的基本知识，承担简单 Web 应用的前后端开发。",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "node app.js"
+  },
+  "private": true,
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kainy/jstraining/issues"
+  }
+}
