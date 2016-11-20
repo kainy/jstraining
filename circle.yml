@@ -1,3 +1,7 @@
+general:
+  branches:
+    only:
+      - master # list of branches to build
 machine:
   timezone:
     Asia/Shanghai 
@@ -6,7 +10,9 @@ machine:
 
 dependencies:
   override:
-
+test:
+  override:
+    - phpunit test/unit-tests # use PHPunit for testing
 deployment:
   production:
     branch: master
